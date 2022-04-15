@@ -18,7 +18,7 @@ const productSlice = createSlice({
       state.cartOpen = false;
     },
     // action is used to access the payload. Alternatively, can destructure straight away {payload} to access payload directly like in "increase" reducer
-    removeFromCart: (state, action) => {
+    removeFromCartReducer: (state, action) => {
       const productId = action.payload._id;
       state.cart = state.cart.filter((product) => product._id !== productId);
       state.cartOpen = state.cart.length > 0;
@@ -64,7 +64,7 @@ console.log(productSlice);
 // }
 export const {
   clearCart,
-  removeFromCart,
+  removeFromCartReducer,
   addToCartReducer,
   addMultipleToCart,
   updateProducts,
