@@ -43,7 +43,7 @@ const productSlice = createSlice({
         return product;
       });
     },
-    toggleCart: (state) => {
+    toggleCartReducer: (state) => {
       state.cartOpen = !state.cartOpen;
     },
     updateCategories: (state, { payload }) => {
@@ -69,7 +69,7 @@ export const {
   addMultipleToCart,
   updateProducts,
   updateCartQuantity,
-  toggleCart,
+  toggleCartReducer,
   updateCategories,
   updateCurrentCategory,
 } = productSlice.actions;
