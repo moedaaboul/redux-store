@@ -24,7 +24,7 @@ const productSlice = createSlice({
       state.cartOpen = state.cart.length > 0;
     },
     // note here how we access payload directly
-    addToCart: (state, { payload }) => {
+    addToCartReducer: (state, { payload }) => {
       state.cartOpen = true;
       state.cart = [...state.cart, payload.product];
     },
@@ -65,7 +65,7 @@ console.log(productSlice);
 export const {
   clearCart,
   removeFromCart,
-  addToCart,
+  addToCartReducer,
   addMultipleToCart,
   updateProducts,
   updateCartQuantity,
