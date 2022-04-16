@@ -13,7 +13,6 @@ function ProductList() {
   const dispatch = useDispatch();
   const { currentCategory, products } = useSelector((store) => store.product);
   // const [state, dispatch] = useStoreContext();
-
   // const { currentCategory } = state;
 
   const { loading, data } = useQuery(QUERY_PRODUCTS);
