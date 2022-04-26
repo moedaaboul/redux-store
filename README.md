@@ -17,16 +17,17 @@ Live demo [_here_](https://redux-store-mdaaboul.herokuapp.com/).
 
 ## General Information
 
-The purpose of this task was to take a fully functioning e-commerce store built using React's Context API, and refactor it to be fully built with Redux. This app is built using the MERN stack and a GraphQL server. It is set up to allow users to have the following features:  
-1-) Update products in Cart
-2-) Add products to Cart
-3-) Update Cart quantity
-4-) Remove items from Cart
-5-) Add multiple items to Cart to the back end.
-6-) Update categories
-7-) Update current category
-8-) Clear Cart
-9-) Toggle Cart
+The purpose of this task was to take a fully functioning e-commerce store built using React's Context API, and refactor it to be fully built with Redux. This app is built using the MERN stack and a GraphQL server. It is set up to allow users to have the following features:
+
+- Update products in Cart
+- Add products to Cart
+- Update Cart quantity
+- Remove items from Cart
+- Add multiple items to Cart to the back end.
+- Update categories
+- Update current category
+- Clear Cart
+- Toggle Cart
 
 This task involved the following:
 
